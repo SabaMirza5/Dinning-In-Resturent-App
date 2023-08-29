@@ -1,0 +1,1004 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/* ===============Navbar styling start here============= */
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+}
+.navbar{
+  background-color: black;
+  /* padding: 16px 32px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+}
+.navbar-nav .nav-item a{
+/* color: white; */
+font-size: 16px;
+text-transform: uppercase;
+color: #dcca87 !important;
+}
+.navbar-logo{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.navbar-logo img{
+  width: 100%;
+}
+.navbar-nav{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-nav .nav-item{
+  margin: 0px 1rem;
+  cursor: pointer;
+}
+.navbar-nav .nav-item :hover{
+ color: white !important;
+}
+.navbar-log-in{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-log-in a{
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 0.5s ease;
+  color: #dcca87 !important;
+    font-size: 16px !important;
+}
+.navbar-log-in a:hover{
+  border-bottom: 1px solid #DCCA87;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.navbar-log-in div{
+width: 1px;
+height: 30px;
+background-color: gray;
+}
+.dropdown-item {
+    color: black !important;
+}
+.dropdown-item:hover {
+  color: black !important;
+  background-color: black !important;
+}
+/* ===============Navbar styling end here============= */
+/* =============HEADER STYLING START HERE========== */
+.header-main-heading{
+  margin:  182px 0px 45px 0px;
+
+}
+.header-main-heading h5{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.64px;
+color: #FFFFFF;
+margin-bottom: 0px;
+}
+.header-main-heading h2{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 117px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+  margin-bottom: 30px;
+}
+.header-main-heading p{
+  color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+margin-bottom: 0px;
+max-width: 450px;
+}
+.header-main-heading button{
+  border-width: 1px 1px 1px 1px;
+  border-color: #DCCA87;
+  padding: 8px 32px 8px 32px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  color: #0C0C0C;
+  background: #DCCA87;
+  border-style: solid;
+  margin-top: 35px;
+}
+.header-main-heading button:hover{
+  color: #dcca87 !important;
+  background-color: black !important;
+  border: 1px solid #dcca87 !important;
+  }
+.header-main-img{
+  margin-top: 45px;
+}
+/* =============HEADER STYLING END HERE========== */
+/* =============ABOUT STYLING START HERE========== */
+.about-section-bg{
+  background-size: 30% !important;
+  background: url('./assets/G.png');
+  background-position: center;
+  background-repeat: no-repeat;
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 150px;
+  position: relative;
+  justify-content: center;
+}
+.about-sec{
+  text-align: right;
+}
+.history-sec{
+  text-align: left !important;
+}
+.knife-sec{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.knife-sec img{
+  width: 84px;
+  height: 703px;
+  z-index: 0px;
+}
+.about-sec h2{
+  font-size: 3.998rem;
+  line-height: 1.3;
+  letter-spacing: .03em;
+  font-weight: 600;
+  color: #dcca87;
+  font-family: Cormorant Upright,serif;
+}
+.about-sec p{
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.about-sec button{
+  border-width: 1px 1px 1px 1px;
+  border-color: #DCCA87;
+  padding: 8px 32px 8px 32px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  color: #0C0C0C;
+  background: #DCCA87;
+  border-style: solid;
+  margin-top: 35px;
+  text-align: right;
+}
+.about-sec .btn:hover{
+color: #dcca87 !important;
+background-color: black !important;
+border: 1px solid #dcca87 !important;
+}
+.history-sec h2{
+  text-align: start !important;
+}
+/* =============ABOUT STYLING END HERE========== */
+/* =============RESERVATION SECTION STYLING START HERE========== */
+.reservation-cont{
+  border: 1px solid #dcca87;
+ background-color: black;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+.reservation-main-heading h2{
+  color: #fff;
+  font-size: 1.414rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+  padding-top: 50px;
+}
+.reservation-main-heading h1{
+  padding-bottom: 8px;
+  color: #dcca87;
+  font-size: 3.998rem;
+  line-height: 1.3;
+  letter-spacing: .03em;
+  font-family: Cormorant Upright,serif;
+  text-transform: capitalize;
+}
+.form-select {
+  background-color: black;
+  color: white;
+  border: 1px solid #dcca87;
+  border-radius: unset;
+}
+.reservation-button .btn{
+  border-color: #DCCA87;
+  padding: 8px 32px 8px 32px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  color: #0C0C0C;
+  background: #DCCA87;
+  border-style: solid;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: unset;
+}
+.reservation-button .btn:hover{
+  color: #dcca87 !important;
+  background-color: black !important;
+  border: 1px solid #dcca87 !important;
+  }
+/* =============RESERVATION SECTION STYLING END HERE========== */
+/* =============MENU ITEMS SECTION STYLING START HERE========== */
+.menu-main-heading h2{
+  color: #fff;
+  font-size: 1.414rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+  padding-top: 50px;
+}
+.menu-main-heading h1{
+  padding-bottom: 8px;
+  color: #dcca87;
+  font-size: 3.998rem;
+  line-height: 1.3;
+  letter-spacing: .03em;
+  font-family: Cormorant Upright,serif;
+  text-transform: capitalize;
+}
+.wine-bear-sec-main-heading h2{
+  color: #FFFFFF;
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 58.5px;
+  letter-spacing: 0.64px;
+  text-align: center;
+  padding: 30px 0px ;
+}
+ .menu-items-heading h5{
+  color: #DCCA87;
+  font-size: 1.414rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+} 
+.menu-items-heading{
+  display: flex;
+  padding-top: 27px;
+}
+.menu-items-heading-hr{
+  border-bottom: 1px solid #ebebeb;
+  width: 229px;
+    height: 21px;
+}
+
+.menu-items-heading p{
+  color: white;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: .04em;
+  font-family: Open Sans,sans-serif;
+} 
+.price-menu-p{
+  color: #9c9c9c; 
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 18px;
+}
+/* =============MENU ITEMS SECTION STYLING END HERE========== */
+/* =============CHEF  SECTION STYLING START HERE========== */
+.chef-section{
+  margin-top: 191px;
+}
+.chef-main-sec{
+  padding: 0px 0px 0px 40px;
+}
+.chef-main-sec h2{
+  color: #fff;
+  font-size: 1.414rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+padding-top: 100px;
+}
+.chef-main-sec h1{
+  color: #dcca87;
+  font-size: 3.998rem;
+  line-height: 1.3;
+  letter-spacing: .03em;
+  font-family: Cormorant Upright,serif;
+  text-transform: capitalize;
+}
+.chef-main-sec p{
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.chef-main-sec h4{
+  color: #dcca87;
+  font-size: 1.999rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 400;
+  font-family: Cormorant Upright,serif;
+  padding-top: 53px;
+}
+.chef-main-sec h6{
+  margin-top: 8px;
+  color: #aaa;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 400;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+}
+.sign-img{
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding-top: 30px;
+}
+.quote-img{
+  padding-right: 17px;
+}
+/* =============CHEF  SECTION STYLING END HERE========== */
+/* =============VIDEO  SECTION STYLING START HERE========== */
+.video-sec{
+  margin-top: 150px;
+}
+.app__video {
+  height: 100vh;
+  position: relative;
+}
+
+.app__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__video-overlay {
+  position: absolute;
+  inset: 0;
+  /* background: rgba(0,0,0,0.65); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.app__video-overlay_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #dcca87;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+/* =============VIDEO  SECTION STYLING END HERE========== */
+/* =============OUR LAURELS  SECTION STYLING START HERE========== */
+.laurels-sec h2{
+  color: #fff;
+  font-size: 1.414rem;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+padding-top: 150px;
+}
+.laurels-sec h1{
+  color: #dcca87;
+  font-size: 3.998rem;
+  line-height: 1.3;
+  letter-spacing: .03em;
+  font-family: Cormorant Upright,serif;
+  text-transform: capitalize;
+}
+.laurels-img{
+  padding-top: 100px;
+}
+.laurels-main-div{
+  display: flex;
+}
+.laurels-text-div{
+  padding-left: 40px;
+}
+.laurels-text-div h2{
+  color: #DCCA87;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+}
+.laurels-text-div p{
+  line-height: 1.66em;
+  font-size: 16px;
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  line-height: 1.75;
+}
+.newsletter-pera{
+  line-height: 1.75;
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+margin: 30px 0px;
+}
+.newsletter-button .btn{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 18px 50px 15px 32px !important;
+}
+/* =============OUR LAURELS  SECTION STYLING END HERE========== */
+/* =============NEWS LETTER  SECTION STYLING START HERE========== */
+.form-control {
+  font-family: Cormorant Upright,serif;
+  background-color: black;
+  padding: 20px 10px;
+  border-radius: 0px;
+  color: #212529 !important;
+  border: 1px solid #DCCA87 !important;
+}
+.news-letter-sec{
+  margin-bottom: 50px;
+}
+/* =============NEWS LETTER  SECTION STYLING END HERE========== */
+/* =============FOOTER  SECTION STYLING START HERE========== */
+.main-footer{
+margin-top: 40px;
+}
+.contact-heading h2{
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: .04em;
+  font-weight: 700;
+  font-family: Cormorant Upright,serif;
+  /* padding-bottom: 20px; */
+}
+.contact-heading h6{
+  line-height: 1.75;
+  color: hsla(0,0%,100%,.6);
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+.contact-heading p{
+  line-height: 1.75;
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+}
+.footer-logo-img{
+  width: 100%;
+}
+.footer-logo-img img{
+ height: 285px;
+ height: 52px;}
+.logo-section{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.logo-section h2{
+  line-height: 1.75;
+  color: #aaa;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.bottom-footer{
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+}
+.bottom-footer h5{
+  line-height: 1.66em;
+  font-family: Open Sans,sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+/* =============FOOTER  SECTION STYLING END HERE========== */
+
+
+/* ===============MEDIA QUERIES START HERE========== */
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .header-main-heading {
+    margin: 113px 0px 45px 0px;
+}
+.header-main-heading h2 {
+  font-size: 82px;
+  line-height: 97px;
+}
+.menu-items-heading-hr {
+  width: 106px;
+}
+.price-menu-p {
+  font-size: 13px;
+}
+.wine-bear-sec-main-heading h2 {
+  text-align: left;
+  padding: 0px;
+}
+.menu-img{
+  padding-top: 40px;
+}
+.chef-main-sec h1 {
+  font-size: 50px;
+}
+.chef-main-sec h2 {
+  padding-top: 0px;
+}
+.laurels-sec h2 {
+  padding-top: 93px;
+}
+.laurels-main-div {
+  margin-top: 15px !important;
+}
+.laurels-img {
+  padding-top: 143px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-main-heading {
+    margin: 75px 0px 45px 0px;
+}
+.header-main-heading h2 {
+  font-size: 63px;
+  line-height: 72px;
+  margin-bottom: 16px;
+}
+.header-main-heading p {
+  font-size: 13px;
+  line-height: 23px;
+}
+.header-main-img {
+  margin-top: 86px;
+}
+.about-sec h2 {
+  font-size: 35px;
+}
+.about-sec p {
+  font-size: 14px;
+}
+.knife-sec img {
+  width: 49px;
+  height: 400px;
+}
+.about-section-bg {
+  margin-top: 20px;
+}
+.wine-bear-sec-main-heading h2 {
+  font-size: 41px;
+  padding:0px;
+}
+.menu-items-heading-hr {
+  width: 29px;
+}
+.price-menu-p {
+  font-size: 9px;
+  margin-bottom: 0px;
+}
+.menu-items-heading {
+  padding-top: 8px;
+}
+.chef-main-sec h1 {
+  font-size: 35px;
+}
+.chef-main-sec h2 {
+  padding-top: 0px;
+}
+.chef-main-sec h4 {
+  padding-top: 0px;
+}
+.chef-main-sec p {
+  font-size: 14px;
+}
+.sign-img {
+  padding-top: 0px;
+  padding-left: 153px;
+}
+.laurels-text-div {
+  padding-left: 15px;
+}
+.laurels-sec h2 {
+  padding-top: 86px;
+}
+.laurels-text-div h2 {
+  font-size: 17px;
+}
+.laurels-text-div p {
+  font-size: 11px;
+}
+.laurels-img {
+  padding-top: 168px;
+}
+.laurels-sec h1 {
+  font-size: 50px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar-log-in {
+    justify-content: center;
+}
+.navbar-log-in a {
+  font-size: 13px !important;
+}
+.navbar-nav{
+  margin-top: 30px;
+}
+.navbar {
+    padding: 2rem 2rem;
+}
+.header-main-heading {
+  margin: 43px 0px 45px 0px;
+}
+.header-main-heading h2 {
+  font-size: 47px;
+  line-height: 53px;
+}
+.header-main-heading p {
+  font-size: 12px;
+  line-height: 21px;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  .navbar-log-in {
+    justify-content: center;
+}
+.navbar-log-in a {
+  font-size: 13px !important;
+}
+.navbar-nav{
+  margin-top: 30px;
+}
+.navbar {
+    padding: 2rem 2rem;
+}
+.header-main-heading {
+  margin: 43px 0px 45px 0px;
+}
+.header-main-heading h2 {
+  font-size: 47px;
+  line-height: 53px;
+}
+.header-main-heading p {
+  font-size: 12px;
+  line-height: 21px;
+}
+.about-sec p {
+  font-size: 13px;
+}
+.about-sec button {
+  margin-top: 9px;
+}
+.about-sec h2 {
+  font-size: 39px;
+}
+.history-sec{
+  text-align: center !important;
+}
+.history-sec h2{
+  text-align: center !important;
+  margin-top: 40px;
+}
+.about-sec {
+  text-align: center;
+}
+.knife-sec {
+  padding-left: 163px;
+}
+.knife-sec img {
+  margin-top: 47px;
+  width: 25px;
+  height: 212px;
+}
+.about-section-bg {
+  background-size: 41% !important;
+  margin-top: 47px;
+}
+.reservation-cont {
+  margin: 40px 10px;
+}
+.reservation-main-heading h1 {
+  font-size: 34px;
+}
+.form-select {
+  width: 110%;
+}
+.reservation-button .btn {
+  margin-left: 37px;
+}
+.menu-main-heading h1 {
+  font-size: 46px;
+}
+.wine-bear-sec-main-heading h2 {
+  font-size: 31px;
+  padding-top: 43px !important;
+}
+.menu-items-heading-hr {
+  width: 164px;
+}
+.price-menu-p {
+  font-size: 13px;
+}
+.wine-bear-sec-main-heading h2 {
+  padding: 0px;
+}
+.menu-items-heading {
+  padding-top: 0px;
+}
+.chef-main-sec {
+  padding: 0px 0px 0px 0px;
+}
+.chef-section {
+  margin-top: 80px;
+}
+.chef-main-sec h2 {
+  padding-top: 69px;
+}
+.chef-main-sec h4 {
+  padding-top: 0px;
+}
+.sign-img {
+  padding-left: 127px;
+  padding-top: 6px;
+}
+.chef-main-sec h1 {
+  padding-top: 18px;
+  font-size: 36px;
+}
+.video-sec {
+  margin-top: 73px;
+}
+.laurels-sec h2 {
+  padding-top: 100px;
+}
+.laurels-sec h1 {
+  font-size: 51px;
+}
+.laurels-img {
+  padding-top: 30px;
+}
+.laurels-main-div {
+  margin-top: 0px!important;
+}
+.form-control {
+  padding: 8px 5px;
+}
+.newsletter-button .btn {
+  padding: 7px 50px 7px 39px !important;
+}
+.newsletter-button .btn {
+  margin-left: 67px;
+}
+.news-letter-sec {
+  padding-right: 0px;
+}
+}
+@media only screen and (max-width: 320px) {
+  .navbar-log-in {
+    justify-content: center;
+}
+.navbar-log-in a {
+  font-size: 13px !important;
+}
+.navbar-nav{
+  margin-top: 30px;
+}
+.navbar {
+    padding: 2rem 2rem;
+}
+.header-main-heading {
+  margin: 43px 0px 45px 0px;
+}
+.header-main-heading h2 {
+  font-size: 39px;
+  line-height: 53px;
+}
+.header-main-heading p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.about-sec {
+  text-align: center;
+}
+.about-section-bg {
+  margin-top: 50px;
+}
+.about-sec p {
+  font-size: 13px;
+}
+.about-sec button {
+  margin-top: 9px;
+}
+.about-sec h2 {
+  font-size: 39px;
+}
+.history-sec{
+  text-align: center !important;
+}
+.history-sec h2{
+  text-align: center !important;
+  margin-top: 40px;
+}
+.knife-sec {
+  padding-left: 138px;
+}
+.knife-sec img {
+  margin-top: 47px;
+  width: 25px;
+  height: 212px;
+}
+.about-section-bg {
+  background-size: 41% !important;
+}
+.reservation-cont {
+  margin: 40px 10px;
+}
+.reservation-main-heading h1 {
+  font-size: 34px;
+}
+.form-select {
+  width: 110%;
+}
+.reservation-button .btn {
+  margin-left: 37px;
+}
+.menu-main-heading h1 {
+  font-size: 46px;
+}
+.wine-bear-sec-main-heading h2 {
+  font-size: 31px;
+  padding-top: 43px !important;
+}
+.menu-items-heading-hr {
+  width: 108px;
+}
+.price-menu-p {
+  font-size: 13px;
+}
+.wine-bear-sec-main-heading h2 {
+  padding: 0px;
+}
+.menu-items-heading {
+  padding-top: 0px;
+}
+.chef-main-sec {
+  padding: 0px 0px 0px 0px;
+}
+.chef-section {
+  margin-top: 80px;
+}
+.chef-main-sec h2 {
+  padding-top: 69px;
+}
+.chef-main-sec h4 {
+  padding-top: 0px;
+}
+.sign-img {
+  padding-left: 127px;
+  padding-top: 6px;
+}
+.chef-main-sec h1 {
+  padding-top: 18px;
+  font-size: 36px;
+}
+.video-sec {
+  margin-top: 73px;
+}
+.laurels-sec h2 {
+  padding-top: 100px;
+}
+.laurels-sec h1 {
+  font-size: 51px;
+}
+.laurels-img {
+  padding-top: 30px;
+}
+.laurels-main-div {
+  margin-top: 0px!important;
+}
+.form-control {
+  padding: 8px 5px;
+}
+.newsletter-button .btn {
+  padding: 7px 50px 7px 39px !important;
+}
+.newsletter-button .btn {
+  margin-left: 40px !important;
+}
+.news-letter-sec {
+  padding-right: 0px;
+}
+}
+/* ===============MEDIA QUERIES END HERE========== */
